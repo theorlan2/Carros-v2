@@ -3,8 +3,68 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Carros.com.do</title>
+<link rel="stylesheet" href="css/estilo.css">
+<script type="text/javascript" src="js/javascript.js"></script>
+<style type="text/css">
+	
+.cont_principal {
+	background-image: url('img/image4246-6.png');
+background-size: cover;
+-webkit-background-size: cover;
+}	
+</style>
 </head>
 <body>
-	
+<div class="cont_principal">
+<div class="cont_degrado_ini"></div>	
+<div class="cont_central_1">
+	<div class="cont_logo"></div>
+<div class="cont_btns">
+	<a href="#busqueda_rapida" class="btn_border_ini" > BUSQUEDA RAPIDA </a>
+	<a href="#busqueda_rapida" class="btn_border_ini" > INICIO </a>
+</div>
+<!-- Fin Cont_centrar -->
+</div>
+
+<div class="cont_busqueda">
+<h2>BUSQUEDA RAPIDA</h2>
+<h3>Encuentra el carro que estas buscando!</h3>
+	<div class="col_md_3">
+		<select name="estado_carro" class="select_busq_rapida" id="">
+			<option value="usado">USADO</option>
+		</select>
+	</div>
+	<div class="col_md_3">
+				<select name="marca_carro" class="select_busq_rapida" id="marca_carro">
+			<option value="marca">MARCA</option>
+		</select>
+	</div>
+	<div class="col_md_3">
+				<select name="modelo_carro" class="select_busq_rapida" id="modelo_carro">
+			<option value="modelo">MODELO</option>
+		</select>
+	</div>
+<div class="col_md_3">
+		<select name="tipo_carro" class="select_busq_rapida" id="">
+			<option value="tipo">TIPO</option>
+		</select>
+	</div>
+	<div class="col_md_3">
+				<select name="precio_min_carro" class="select_busq_rapida" id="precio_min_carro">
+			<option value="precio_min">Precio Min.</option>
+		</select>
+	</div>
+	<div class="col_md_3">
+				<select name="precio_max_carro" class="select_busq_rapida" id="precio_max_carro">
+			<option value="precio_max">Precio Max.</option>
+		</select>
+	</div>
+	<a href="#busqueda_rapida" class="btn_border_ini" > BUSCAR </a>
+</div>
+
+
+
+<!--  Fin Cont_principal --> 	
+ </div>	
 </body>
 </html>
